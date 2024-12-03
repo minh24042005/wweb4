@@ -1,0 +1,250 @@
+header {
+  border: 1px;
+  border-radius: 10px;
+  border-color: #ccc7c8;
+  margin-bottom: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  height: 275px;
+  background-image: url(./Thiết\ kế\ chưa\ có\ tên.png);
+  background-size: 1340px;
+}
+footer {
+  border-color: #000000;
+  border-style: double;
+  border-radius: 15px;
+  padding-bottom: 10px;
+  background-image: url(./Thiết\ kế\ chưa\ có\ tên.png);
+  background-size: 1360px;
+  font-size: 18px;
+}
+nav {
+  margin-top: 40px;
+}
+nav a {
+  float: bottom;
+  margin: 3px;
+  border-style: solid;
+  border-color: #fdad01d7;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 22px;
+  background-color: #01ff4180;
+  color: #000000;
+}
+nav a:hover {
+  color: #fd0808;
+  background-color: #ffffff;
+}
+main {
+  border-color: #000000;
+  border-style: double;
+  border-radius: 15px;
+  padding-bottom: 60px;
+  margin-bottom: 5px;
+  font-family: Arial, sans-serif;
+  color: #000000;
+  text-align: center;
+}
+.trangchu {
+  font-size: 25px;
+  color: #0099ff;
+  display: flex;
+  border-radius: 10px;
+  border: #000000 solid;
+  background-color: #ffa9a9;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+.hinhtrangchu {
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #000000;
+  margin-right: -150px;
+}
+.noidungtrangchu {
+  border-radius: 10px;
+  border: #c76524 solid;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right:20px ;
+  background-color: #ffffff;
+  text-align: left;
+  margin-left: 200px;
+}
+b {
+  color: #000000;
+  font-size: 28px;
+}
+h4 {
+  color: #d60000;
+  text-align: center;
+  font-size: 35px;
+}
+h3 {
+  font-size: 36px;
+  color: #ff0000;
+  border-style: double;
+  opacity: 0;
+  border-color: #ff0000;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px 10px #0099ff;
+  text-shadow: 2px 2px 2px #000000;
+  display: inline-block;
+  padding: 10px;
+  animation: h3 2s both 1s infinite;
+}
+
+@keyframes h3 {
+  0 {
+    opacity: 0;
+    transform: translateX(80px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateX(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+h5 {
+  font-size: 36px;
+  color: #0228ff;
+  border-style: double;
+  opacity: 0;
+  border-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px 10px #ffffff;
+  text-shadow: 2px 2px 2px #000000;
+  display: inline-block;
+  padding: 10px;
+  animation: h3 2s forwards 1s;
+}
+
+
+.mot {
+  display: flex;
+  max-width: 1300px;
+  background-image: url(./Bodybuilder\ Fitness\ Club\ Black\ Logo.png);
+  box-shadow: 10px 10px 3px 10px rgba(255, 0, 0, 0.1), 2px 0px 0px 2px#c76524;
+  border-radius: 8px;
+  overflow: hidden;
+  padding-top: 10px;
+  margin-top: 10px;
+  background-size: 650px;
+  margin-left: 280px;
+}
+.content {
+  flex: 1;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.content h2 {
+  color: #d60000;
+  margin-bottom: 20px;
+}
+.content ul {
+  list-style-type: decimal;
+  padding-left: 20px;
+  color: #000000;
+}
+.content li {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #000000;
+}
+.video {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffed9e;
+  padding-top: 20px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.video iframe {
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+  border: none;
+  border-radius: 8px;
+}
+
+h2 {
+  border: 2px solid #000000;
+  border-radius: 15px;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  color: #d60000;
+  font-size: 30px;
+}
+ol {
+  padding-left: 20px;
+}
+li {
+  margin: 10px ;
+  font-size: 20px;
+}
+.note {
+  margin-top: 20px;
+  font-style: italic;
+  font-size: 17px;
+  color: #8e44ad;
+  text-align: center;
+}
+video {
+  width: 500px;
+  height: 1000px;
+}
+.highlight {
+  font-size: 40px; /* Tăng kích thước chữ */
+  font-weight: bold; /* Làm đậm chữ */
+  color: #5e0000; /* Màu chữ nổi bật (cam sáng) */
+  text-shadow: 2px 2px 5px rgba(214, 210, 210, 0.5); /* Tạo bóng cho chữ */
+  letter-spacing: 5px; /* Giãn khoảng cách giữa các chữ cái */
+  background: linear-gradient(
+    45deg,
+    #d60000,
+    #f00000
+  ); /* Nền gradient cho chữ */
+  -webkit-background-clip: text; /* Cắt chữ bằng nền */
+  -webkit-text-fill-color: transparent; /* Màu chữ trong suốt để hiện nền */
+  border: 3px solid #ff5c5c; 
+  display: inline-block; 
+  border-radius: 10px; 
+  text-align: center;
+  margin-top: 90px;
+  padding: 5px;
+  animation: h1 2s both 0.5s infinite;
+}
+@keyframes h1 {
+  0 {
+    opacity: 1;
+    transform: translate(60px);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(-45px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+.nguoithuchien {
+  color: #ff0000;
+  text-shadow: 1px 1px #d2cff3;
+  font-size: 17px;
+}
